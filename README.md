@@ -1,6 +1,6 @@
 # WABT inside a Docker container
 
-A minimal image for running the WABT utilities. Has all the WABT binaries in $PATH, and working directory set to `/data`.
+A minimal image for running the [The WebAssembly Binary Toolkit](https://github.com/WebAssembly/wabt) utilities. Has all the WABT binaries in $PATH, and working directory set to `/data`.
 
 ## Usage
 
