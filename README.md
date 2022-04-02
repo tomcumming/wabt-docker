@@ -17,3 +17,11 @@ docker run --rm -v $(pwd):/data wabt wat2wasm example.wat
 ```
 
 This will result in a file in the current directory named `example.wasm`.
+
+---
+
+You might want to set up an alias:
+```bash
+alias wabt='docker run --rm -v $(pwd):/data wabt'
+wabt wat2wasm example.wat # Much easier
+```
